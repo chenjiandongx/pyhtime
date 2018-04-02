@@ -1,5 +1,7 @@
 # pytimeago
 
+[![Build Status](https://travis-ci.org/chenjiandongx/pytimeago.svg?branch=master)](https://travis-ci.org/chenjiandongx/pytimeago) [![Build status](https://ci.appveyor.com/api/projects/status/pbvuq6ejlmsbwc22/branch/master?svg=true)](https://ci.appveyor.com/project/chenjiandongx/pytimeago/branch/master) [![codecov](https://codecov.io/gh/chenjiandongx/pytimeago/branch/master/graph/badge.svg)](https://codecov.io/gh/chenjiandongx/pytimeago) [![PyPI version](https://badge.fury.io/py/pyetimeago.svg)](https://badge.fury.io/py/pytimeago) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)]
+
 pytimeago 是一个用来将 datetime 时间转化成更加人性化的 `时间描述字符串`的库。灵感来自 [timeago.js](https://github.com/hustcc/timeago.js)。
 
 #### 中文
