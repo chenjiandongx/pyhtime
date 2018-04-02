@@ -1,6 +1,6 @@
 # pytimeago
 
-pytimeago 是一个用来将 datetime 时间转化成更加人性化的 `时间描述字符串`。例如
+pytimeago 是一个用来将 datetime 时间转化成更加人性化的 `时间描述字符串`。灵感来自 [timeago.js](https://github.com/hustcc/timeago.js)。
 
 #### 中文
 * 刚刚
