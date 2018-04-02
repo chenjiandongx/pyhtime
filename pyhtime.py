@@ -37,7 +37,7 @@ ZH_CN = {
 }
 
 
-def timeago(when, base=None, local="zh"):
+def htime(when, base=None, local="zh"):
     """
     主函数
 
