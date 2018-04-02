@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/chenjiandongx/pyhtime.svg?branch=master)](https://travis-ci.org/chenjiandongx/pyhtime) [![Build status](https://ci.appveyor.com/api/projects/status/pbvuq6ejlmsbwc22/branch/master?svg=true)](https://ci.appveyor.com/project/chenjiandongx/pyhtime/branch/master) [![Build status](https://ci.appveyor.com/api/projects/status/7j6kcapdkldr4owa/branch/master?svg=true)](https://ci.appveyor.com/project/chenjiandongx/pyhtime/branch/master) [![PyPI version](https://badge.fury.io/py/pyhtime.svg)](https://badge.fury.io/py/pyhtime) ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
-htime 是一个用来将 datetime 时间转化成更加人性化的 `时间描述字符串`的库。灵感来自 [timeago.js](https://github.com/hustcc/timeago.js)。
+pyhtime 是一个用来将 datetime 时间转化成更加人性化的 `时间描述字符串`的库。灵感来自 [timeago.js](https://github.com/hustcc/timeago.js)。
 
 #### 中文
 * 刚刚
@@ -48,30 +48,30 @@ htime(when, base=None, local="zh")
 'datetime.datetime(2018, 4, 2, 17, 2, 17, 193371)'
 
 # 字符串
->>> pyhtime("2018-4-1")
+>>> htime("2018-4-1")
 '1 天前'
 
 # 时间元组
->>> pyhtime((2018, 4, 1))
+>>> htime((2018, 4, 1))
 '1 天前'
 
 # datetime.datetime 类型
->>> pyhtime(datetime.datetime(2018, 4, 1))
+>>> htime(datetime.datetime(2018, 4, 1))
 '1 天前'
 
 # 指定语言为英文
->>> pyhtime((2018, 4, 1), local="en")
+>>> htime((2018, 4, 1), local="en")
 '1 day ago'
 
 # 英文时间格式
->>> pyhtime("April 1, 2018", local="en")
+>>> htime("April 1, 2018", local="en")
 '1 day ago'
 
->>> pyhtime(datetime.datetime.now(), local="en")
+>>> htime(datetime.datetime.now(), local="en")
 'just now'
 
 # 指定基准时间
->>> pyhtime("2018-8-8", "2008-8-8")
+>>> htime("2018-8-8", "2008-8-8")
 '10 年后'
 ```
 
