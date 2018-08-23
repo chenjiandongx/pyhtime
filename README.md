@@ -1,6 +1,6 @@
 # pyhtime
 
-[![Build Status](https://travis-ci.org/chenjiandongx/pyhtime.svg?branch=master)](https://travis-ci.org/chenjiandongx/pyhtime) [![Build status](https://ci.appveyor.com/api/projects/status/pbvuq6ejlmsbwc22/branch/master?svg=true)](https://ci.appveyor.com/project/chenjiandongx/pyhtime/branch/master) [![Build status](https://ci.appveyor.com/api/projects/status/7j6kcapdkldr4owa/branch/master?svg=true)](https://ci.appveyor.com/project/chenjiandongx/pyhtime/branch/master) [![PyPI version](https://badge.fury.io/py/pyhtime.svg)](https://badge.fury.io/py/pyhtime) ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+[![Build Status](https://travis-ci.org/chenjiandongx/pyhtime.svg?branch=master)](https://travis-ci.org/chenjiandongx/pyhtime) [![Build status](https://ci.appveyor.com/api/projects/status/pbvuq6ejlmsbwc22/branch/master?svg=true)](https://ci.appveyor.com/project/chenjiandongx/pyhtime/branch/master) [![PyPI version](https://badge.fury.io/py/pyhtime.svg)](https://badge.fury.io/py/pyhtime) ![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)
 
 pyhtime 是一个用来将 datetime 时间转化成更加人性化的 `时间描述字符串`的库。灵感来自 [timeago.js](https://github.com/hustcc/timeago.js)。
 
@@ -81,4 +81,4 @@ $ make
 ```
 
 ### LICENSE
-MIT [@chenjiandongx](https://github.com/chenjiandongx)
+MIT [©chenjiandongx](https://github.com/chenjiandongx)
